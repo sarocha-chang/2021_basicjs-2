@@ -1,8 +1,15 @@
-document.getElementById('ok').addEventListener('click',function(e){
-    alert('ok is clicked')
-    console.log(e)
-}
-)
+document.getElementById('ok').addEventListener('click',function(){
+    alert('This is button OK')
+})
+
+document.getElementById('cancel').addEventListener('click',function(){
+    alert('This is button Cancel')
+})
+
+document.getElementById('no').addEventListener('click',function(){
+    alert('This is button No')
+})
+
 document.getElementById('cancel').addEventListener('mousemove',function(c){
     var x = c.clientX;
     var y = c.clientY;
