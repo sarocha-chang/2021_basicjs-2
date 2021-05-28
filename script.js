@@ -1,5 +1,4 @@
-var newText ='newText'
-document.getElementById('ok').innerHTML=newText
-
-var nameUser='Sarocha Chang'
-document.getElementById('no').innerHTML=nameUser
+document.getElementById('ok').addEventListener('click',function(e){
+    alert('ok is clicked')
+}
+)
